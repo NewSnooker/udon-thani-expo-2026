@@ -1,0 +1,291 @@
+{
+  "meta": {
+    "title": "Udon Thani International Horticultural Expo 2026",
+    "description": "Diversity of Life: Connecting Water, Plants and People for Sustainable Living. 1 November 2026 - 14 March 2027, Nong Dae Wetland, Udon Thani, Thailand."
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "highlights": "Highlights",
+    "zones": "Activities",
+    "gallery": "Gallery",
+    "news": "News",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "officialSite": "Official Website",
+    "learnMore": "Learn More"
+  },
+  "hero": {
+    "eyebrow": "AIPH International Horticultural Expo · Category B",
+    "title": "World Horticultural Expo",
+    "titleAccent": "Udon Thani Province, 2026.",
+    "subtitle": "Connecting water, plants and people for sustainable living — the world's first international horticultural expo held on a living wetland, in the heart of the Greater Mekong Subregion.",
+    "dateLabel": "Expo Dates",
+    "date": "1 November 2026 – 14 March 2027",
+    "locationLabel": "Location",
+    "location": "Nong Dae Wetland, Kut Sa, Mueang Udon Thani, Thailand",
+    "ctaPrimary": "Explore the Expo",
+    "ctaSecondary": "Visit Official Website",
+    "scrollHint": "Scroll to explore"
+  },
+  "about": {
+    "eyebrow": "About the Expo",
+    "title": "A wetland reborn as a garden for the world",
+    "lead": "Udon Thani International Horticultural Expo 2026 is Thailand's third World Horticultural Expo and the first ever staged across a living wetland ecosystem.",
+    "paragraph1": "Spanning 1,030 rai (about 164.8 hectares) of the Nong Dae Wetland, the Expo weaves gardens, waterways and pavilions directly into the landscape instead of clearing it. Under the theme \"Diversity of Life: Connecting Water, Plants and People for Sustainable Living,\" it tells the story of how the wetlands of Isan have long sustained the communities of the Greater Mekong Subregion.",
+    "paragraph2": "Approved by the International Association of Horticultural Producers (AIPH) as a Category B International Horticultural Exhibition, the 134-day event brings together nations, institutions and innovators to showcase horticultural science, sustainable design and the cultural identity of Northeast Thailand — welcoming an estimated 3.6 million visitors from Thailand and abroad.",
+    "historyTitle": "Rooted in “Kwan”",
+    "historyText": "Local Isan belief holds that “Kwan” — a vital, kindred spirit — resides in people, animals, plants and even objects, binding all living things together. The Expo's gardens and ceremonies, including the traditional Bai Sri Su Kwan welcoming rite, draw directly from this worldview of harmony between people and nature.",
+    "missionTitle": "Mission",
+    "missionText": "To position Udon Thani as a centre of biodiversity, horticultural innovation and sustainability for the Greater Mekong Subregion, leaving a lasting legacy of environmental knowledge long after closing day."
+  },
+  "highlights": {
+    "eyebrow": "Why Visit",
+    "title": "Highlights of the Expo",
+    "subtitle": "Six reasons the world is coming to Udon Thani.",
+    "items": [
+      {
+        "title": "The First Wetland Expo",
+        "description": "The world's first international horticultural expo built into a living wetland rather than cleared land, with water at the centre of every garden."
+      },
+      {
+        "title": "Rare & Exotic Species",
+        "description": "State-of-the-art glasshouses display rare orchids, aquatic plants and prize specimens competing in international horticultural competitions."
+      },
+      {
+        "title": "Smart Agriculture",
+        "description": "Smart-farming greenhouses demonstrate precision irrigation, vertical growing and climate-resilient crop technology from Thailand and abroad."
+      },
+      {
+        "title": "Isan Culture & Identity",
+        "description": "The Royal Pavilion, inspired by Wat Pa Phu Kon, and local symbols like the white-winged duck and dendrobium orchid celebrate Northeast Thai heritage."
+      },
+      {
+        "title": "Sustainable Design",
+        "description": "A Carbon Credit Forest Garden and eco-integrated architecture demonstrate practical models for ecosystem restoration and low-carbon living."
+      },
+      {
+        "title": "Family-Friendly Journey",
+        "description": "Skywalk viewpoints, open-air gardens and cultural performances make the 1,030-rai site an easy, rewarding day out for every generation."
+      }
+    ]
+  },
+  "zones": {
+    "eyebrow": "Explore the Grounds",
+    "title": "Six Zones, One Wetland",
+    "subtitle": "Plan your route through the Expo's six themed zones.",
+    "items": [
+      {
+        "id": "arrival",
+        "name": "Arrival & Welcome Zone",
+        "tagline": "Your journey begins here",
+        "description": "The Arrival Building and Skywalk greet every visitor with sweeping views across the wetland. The adjoining Visitor Center offers maps, schedules and interactive displays to help you plan a route through the site.",
+        "highlights": [
+          "Visitor Center & ticketing",
+          "Interactive trip planning"
+        ]
+      },
+      {
+        "id": "international",
+        "name": "Memorial Building",
+        "tagline": "The world, in bloom",
+        "description": "The structure, inspired by Wat Pa Phu Kon, serves as a center of faith, reflecting the Buddhist way of life of the people of Udon Thani.",
+        "highlights": [
+          "Corporate showcase gardens",
+          "Cultural exchange events"
+        ]
+      },
+      {
+        "id": "greenhouse",
+        "name": "Greenhouse & Exhibition",
+        "tagline": "Rare species, glasshouse-grown",
+        "description": "The structure reinterprets the traditional Isaan Huan Fet (twin house) design from the Isaan region in a modern dimension. The building comprises large interconnected spaces, unified by a central open courtyard that reflects contemporary use of communal areas typical of Isaan culture. Additionally, a glass roof section is incorporated to create a suitable and aesthetically pleasing space for displaying various plant species.",
+        "highlights": [
+          "Rare orchid & aquatic plant displays",
+          "International competitions",
+          "Seasonal flower rotations"
+        ]
+      },
+      {
+        "id": "innovation",
+        "name": "Agricultural Innovation & Technology",
+        "tagline": "Smart farming in action",
+        "description": "Live demonstrations of smart farming for aquatic plants, vegetable and ornamental greenhouses, and technology for reducing food loss and reusing agricultural waste.",
+        "highlights": [
+          "Smart Farming demonstrations",
+          "Climate & pest-risk systems",
+          "Agri-tech innovation lab"
+        ]
+      },
+      {
+        "id": "thai-garden",
+        "name": "Say Village",
+        "tagline": "Local wisdom, living tradition",
+        "description": "The complex of buildings replicates various styles of Isan architecture, such as Huan Keuy (raised house), Huan Khong (large traditional house), and Huan Fai (kitchen house), reflecting the traditional way of life of the local Isan people. This area also serves as an open space for showcasing Isan art and cultural performances.",
+        "highlights": [
+          "Traditional Isan crops",
+          "Local farming heritage",
+          "Community demonstration plots"
+        ]
+      },
+      {
+        "id": "carbon-forest",
+        "name": "Arrivals terminal and skywalk",
+        "tagline": "Restoring the wetland's future",
+        "description": "The site's starting point features a bridge connecting the natural landscape and waterfront area to the visitor center, providing convenience for visitors.",
+        "highlights": [
+          "Wetland conservation stories"
+        ]
+      }
+    ]
+  },
+  "timeline": {
+    "eyebrow": "Event Timeline",
+    "title": "134 Days of the Diversity of Life",
+    "subtitle": "From opening ceremony to closing celebration.",
+    "items": [
+      {
+        "date": "1 November 2026",
+        "title": "Opening Ceremony",
+        "description": "Official opening of the Udon Thani International Horticultural Expo 2026, welcoming delegations and visitors from around the world."
+      },
+      {
+        "date": "November – December 2026",
+        "title": "International Garden Season",
+        "description": "National and corporate gardens reach full bloom, alongside the first rounds of international horticultural competitions."
+      },
+      {
+        "date": "December 2026 – January 2027",
+        "title": "Cool Season & Red Lotus Bloom",
+        "description": "Udon Thani's coolest, clearest months coincide with the nearby Red Lotus Lake's sunrise bloom, the ideal window to explore the site on foot."
+      },
+      {
+        "date": "February 2027",
+        "title": "Innovation & Culture Weeks",
+        "description": "Special programming spotlighting smart agriculture, Isan cultural performances and youth horticultural competitions."
+      },
+      {
+        "date": "14 March 2027",
+        "title": "Closing Ceremony",
+        "description": "A closing celebration marking 134 days of exhibitions, before the site transitions into its long-term legacy as a public garden."
+      }
+    ]
+  },
+  "statistics": {
+    "eyebrow": "By the Numbers",
+    "title": "A World-Class Expo, by the Numbers",
+    "items": [
+      {
+        "value": 1030,
+        "suffix": "",
+        "label": "Rai of Wetland "
+      },
+      {
+        "value": 134,
+        "suffix": "",
+        "label": "Days of Programming"
+      },
+      {
+        "value": 6,
+        "suffix": "",
+        "label": "Themed Zones"
+      },
+      {
+        "value": 3.6,
+        "suffix": "M",
+        "label": "Expected Visitors"
+      }
+    ]
+  },
+  "gallery": {
+    "eyebrow": "Gallery",
+    "title": "A Preview of the Grounds",
+    "subtitle": "Wetlands, gardens and pavilions across the Nong Dae site."
+  },
+  "news": {
+    "eyebrow": "Latest Updates",
+    "title": "News & Announcements",
+    "subtitle": "Stay up to date as Udon Thani prepares to welcome the world.",
+    "readMore": "Read More",
+    "items": [
+      {
+        "title": "Site Preparation Passes 50% Complete",
+        "date": "January 2026",
+        "summary": "Provincial authorities confirm construction across the 1,030-rai site is more than halfway complete, with the Arrival Building and Skywalk taking shape."
+      },
+      {
+        "title": "Mascot Design Competition Opens",
+        "date": "2025",
+        "summary": "A nationwide competition invites students, professionals and hobbyists to design the official Expo mascot, with a prize pool for winning entries."
+      },
+      {
+        "title": "AIPH Confirms Category B Status",
+        "date": "2022",
+        "summary": "The International Association of Horticultural Producers formally approved Udon Thani's bid, setting the stage for Thailand's third World Horticultural Expo."
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "Good to Know",
+    "title": "Frequently Asked Questions",
+    "items": [
+      {
+        "q": "When and where is the Expo held?",
+        "a": "The Expo runs from 1 November 2026 to 14 March 2027 at the Nong Dae Wetland in Kut Sa Sub-district, Mueang Udon Thani District, Udon Thani Province, Thailand."
+      },
+      {
+        "q": "How large is the Expo site?",
+        "a": "The site covers 1,030 rai, roughly 164.8 hectares, making it one of the largest horticultural expo sites ever built on a wetland ecosystem."
+      },
+      {
+        "q": "What is the best time of day and year to visit?",
+        "a": "November to February brings Udon Thani's coolest, clearest weather, with mornings as low as 9°C — ideal for exploring the open-air gardens on foot."
+      },
+      {
+        "q": "How do I get to the Expo site?",
+        "a": "Udon Thani International Airport, the railway station and the main bus terminal are all roughly 25–35 minutes away by car or taxi."
+      },
+      {
+        "q": "Is the Expo suitable for families and children?",
+        "a": "Yes. Open-air gardens, the Skywalk viewpoint and cultural performances are designed to be accessible and engaging for visitors of all ages."
+      },
+      {
+        "q": "How many zones does the Expo have?",
+        "a": "The site is organised into six themed zones, from the Arrival & Welcome Zone to the Carbon Credit Forest Garden — see the Activities section above."
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Get in Touch",
+    "title": "Plan Your Visit",
+    "subtitle": "Connect with official Expo channels for tickets, updates and directions.",
+    "officialWebsite": "Official Website",
+    "officialWebsiteDesc": "udonthaniexpo2026.com",
+    "facebook": "Facebook",
+    "facebookDesc": "Udon Thani International Horticultural EXPO 2026",
+    "map": "Google Maps",
+    "mapDesc": "Nong Dae Wetland, Udon Thani",
+    "phone": "Phone",
+    "phoneDesc": "Department of Agriculture, Thailand",
+    "email": "Email",
+    "emailDesc": "info@udonthaniexpo2026.com"
+  },
+  "footer": {
+    "tagline": "Diversity of Life: Connecting Water, Plants and People for Sustainable Living.",
+    "navTitle": "Explore",
+    "followTitle": "Follow the Expo",
+    "langTitle": "Language",
+    "rights": "Udon Thani International Horticultural Expo 2026. All rights reserved.",
+    "officialNotice": "An official Kingdom of Thailand event, approved by AIPH."
+  },
+  "theme": {
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System",
+    "toggle": "Toggle theme"
+  },
+  "common": {
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  }
+}

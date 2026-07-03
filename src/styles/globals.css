@@ -1,0 +1,112 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 45 38% 97%;
+    --foreground: 150 22% 12%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 150 22% 12%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 150 22% 12%;
+
+    --primary: 152 45% 22%;
+    --primary-foreground: 45 38% 97%;
+
+    --secondary: 90 30% 88%;
+    --secondary-foreground: 152 45% 18%;
+
+    --muted: 45 25% 93%;
+    --muted-foreground: 150 12% 38%;
+
+    --accent: 90 35% 92%;
+    --accent-foreground: 152 45% 18%;
+
+    --gold: 42 55% 45%;
+    --gold-foreground: 45 60% 97%;
+
+    --border: 150 15% 87%;
+    --input: 150 15% 87%;
+    --ring: 152 45% 30%;
+
+    --radius: 1rem;
+  }
+
+  .dark {
+    --background: 152 28% 7%;
+    --foreground: 45 30% 94%;
+
+    --card: 152 24% 10%;
+    --card-foreground: 45 30% 94%;
+
+    --popover: 152 24% 9%;
+    --popover-foreground: 45 30% 94%;
+
+    --primary: 100 32% 70%;
+    --primary-foreground: 152 35% 10%;
+
+    --secondary: 152 20% 16%;
+    --secondary-foreground: 45 30% 92%;
+
+    --muted: 152 18% 14%;
+    --muted-foreground: 100 10% 65%;
+
+    --accent: 152 18% 16%;
+    --accent-foreground: 45 30% 92%;
+
+    --gold: 42 60% 62%;
+    --gold-foreground: 42 40% 10%;
+
+    --border: 152 16% 18%;
+    --input: 152 16% 18%;
+    --ring: 100 32% 60%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-background text-foreground font-body antialiased;
+  }
+  h1, h2, h3, h4 {
+    @apply font-display;
+  }
+  :lang(th) {
+    @apply font-thai;
+  }
+  :lang(zh) {
+    font-family: var(--font-zh), var(--font-body);
+  }
+  ::selection {
+    @apply bg-gold/30;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  .bg-noise {
+    background-image: radial-gradient(hsl(var(--foreground) / 0.04) 1px, transparent 1px);
+    background-size: 20px 20px;
+  }
+  .section-padding {
+    @apply py-20 md:py-28;
+  }
+}

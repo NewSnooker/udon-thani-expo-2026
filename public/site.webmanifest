@@ -1,0 +1,8 @@
+{
+  "name": "Udon Thani International Horticultural Expo 2026",
+  "short_name": "Udon Expo 2026",
+  "icons": [{ "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml" }],
+  "theme_color": "#1F5C42",
+  "background_color": "#FAF9F4",
+  "display": "standalone"
+}
