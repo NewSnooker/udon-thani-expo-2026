@@ -8,7 +8,14 @@ import { Link } from "@/i18n/navigation";
 import { cn } from "@/lib/utils";
 import { useScrollPosition } from "@/hooks/use-scroll-position";
 import { Button } from "@/components/ui/button";
-import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger, SheetClose } from "@/components/ui/sheet";
+import {
+  Sheet,
+  SheetContent,
+  SheetHeader,
+  SheetTitle,
+  SheetTrigger,
+  SheetClose,
+} from "@/components/ui/sheet";
 import { ThemeToggle } from "./theme-toggle";
 import { LanguageSwitcher } from "./language-switcher";
 import { SOCIAL_LINKS } from "@/lib/constants";
@@ -38,7 +45,7 @@ export function Navbar() {
         "fixed inset-x-0 top-0 z-50 transition-all duration-300",
         scrolled
           ? "bg-background/85 shadow-sm backdrop-blur-lg border-b border-border/60"
-          : "bg-transparent"
+          : "bg-transparent",
       )}
     >
       <div className="container flex h-[4.5rem] items-center justify-between py-3">
@@ -48,7 +55,7 @@ export function Navbar() {
           </span>
           <span className="flex flex-col leading-tight">
             <span className="font-display text-base font-semibold tracking-tight">
-              Udon Thani Expo
+              World Horticultural Expo Udon Thani
             </span>
             <span className="text-[11px] uppercase tracking-[0.2em] text-muted-foreground">
               2026
@@ -72,7 +79,11 @@ export function Navbar() {
           <LanguageSwitcher />
           <ThemeToggle />
           <Button asChild size="sm" variant="gold" className="ml-1 gap-1.5">
-            <a href={SOCIAL_LINKS.officialWebsite} target="_blank" rel="noopener noreferrer">
+            <a
+              href={SOCIAL_LINKS.officialWebsite}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               {t("officialSite")}
               <ExternalLink className="h-3.5 w-3.5" />
             </a>
@@ -90,7 +101,8 @@ export function Navbar() {
             <SheetContent>
               <SheetHeader>
                 <SheetTitle className="flex items-center gap-2">
-                  <Sprout className="h-5 w-5 text-primary" /> Udon Thani Expo 2026
+                  <Sprout className="h-5 w-5 text-primary" /> World
+                  Horticultural Expo Udon Thani 2026
                 </SheetTitle>
               </SheetHeader>
               <nav aria-label="Mobile" className="mt-8 flex flex-col gap-1">
@@ -108,7 +120,11 @@ export function Navbar() {
               <div className="mt-8 flex items-center justify-between border-t border-border/60 pt-6">
                 <LanguageSwitcher />
                 <Button asChild size="sm" variant="gold" className="gap-1.5">
-                  <a href={SOCIAL_LINKS.officialWebsite} target="_blank" rel="noopener noreferrer">
+                  <a
+                    href={SOCIAL_LINKS.officialWebsite}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     {t("officialSite")}
                     <ExternalLink className="h-3.5 w-3.5" />
                   </a>

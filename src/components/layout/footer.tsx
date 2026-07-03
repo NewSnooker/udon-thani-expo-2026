@@ -27,7 +27,9 @@ export function Footer() {
               <span className="flex h-10 w-10 items-center justify-center rounded-full bg-primary-foreground/15">
                 <Sprout className="h-5 w-5" />
               </span>
-              <span className="font-display text-lg font-semibold">Udon Thani Expo 2026</span>
+              <span className="font-display text-lg font-semibold">
+                Udon Thani Province, 2026.
+              </span>
             </Link>
             <p className="mt-4 max-w-sm text-sm leading-relaxed text-primary-foreground/75">
               {t("tagline")}
@@ -44,7 +46,10 @@ export function Footer() {
             <ul className="mt-4 space-y-2.5 text-sm">
               {NAV_KEYS.map(([key, href]) => (
                 <li key={key}>
-                  <a href={href} className="text-primary-foreground/80 transition-colors hover:text-gold">
+                  <a
+                    href={href}
+                    className="text-primary-foreground/80 transition-colors hover:text-gold"
+                  >
                     {tn(key)}
                   </a>
                 </li>
@@ -58,17 +63,32 @@ export function Footer() {
             </h3>
             <ul className="mt-4 space-y-2.5 text-sm">
               <li>
-                <a href={SOCIAL_LINKS.officialWebsite} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-primary-foreground/80 transition-colors hover:text-gold">
+                <a
+                  href={SOCIAL_LINKS.officialWebsite}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-2 text-primary-foreground/80 transition-colors hover:text-gold"
+                >
                   <Globe className="h-4 w-4" /> {tn("officialSite")}
                 </a>
               </li>
               <li>
-                <a href={SOCIAL_LINKS.facebook} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-primary-foreground/80 transition-colors hover:text-gold">
+                <a
+                  href={SOCIAL_LINKS.facebook}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-2 text-primary-foreground/80 transition-colors hover:text-gold"
+                >
                   <Facebook className="h-4 w-4" /> Facebook
                 </a>
               </li>
               <li>
-                <a href={SOCIAL_LINKS.map} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-primary-foreground/80 transition-colors hover:text-gold">
+                <a
+                  href={SOCIAL_LINKS.map}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-2 text-primary-foreground/80 transition-colors hover:text-gold"
+                >
                   <MapPin className="h-4 w-4" /> Google Maps
                 </a>
               </li>
@@ -79,7 +99,9 @@ export function Footer() {
         <Separator className="my-10 bg-primary-foreground/15" />
 
         <div className="flex flex-col items-center justify-between gap-4 text-xs text-primary-foreground/60 sm:flex-row">
-          <p>&copy; {new Date().getFullYear()} {t("rights")}</p>
+          <p>
+            &copy; {new Date().getFullYear()} {t("rights")}
+          </p>
         </div>
       </div>
     </footer>
