@@ -55,7 +55,7 @@ export function Navbar() {
           </span>
           <span className="flex flex-col leading-tight">
             <span className="font-display text-base font-semibold tracking-tight">
-              World Horticultural Expo Udon Thani
+              Udon Thani Expo
             </span>
             <span className="text-[11px] uppercase tracking-[0.2em] text-muted-foreground">
               2026

@@ -28,7 +28,7 @@ export function Footer() {
                 <Sprout className="h-5 w-5" />
               </span>
               <span className="font-display text-lg font-semibold">
-                Udon Thani Province, 2026.
+                Udon Thani International Horticultural Expo 2026
               </span>
             </Link>
             <p className="mt-4 max-w-sm text-sm leading-relaxed text-primary-foreground/75">
